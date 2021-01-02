@@ -1,0 +1,12 @@
+pipeline{
+   agent any
+   tools{
+   }
+   stages{
+      stage('git CheckOut'){
+            echo 'hello everyone'
+      }
+   
+   }
+
+}
